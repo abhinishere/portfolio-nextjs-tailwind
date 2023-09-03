@@ -1,11 +1,12 @@
+import ActionButton from "@/components/action-button";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import ProjectShowcase from "@/components/project-showcase";
 import Sidebar from "@/components/sidebar";
 import SkillOutline from "@/components/skill-outline";
-import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import WorkShowcase from "@/components/work-showcase";
+
 import {
   Project,
   WorkExperience,
@@ -15,7 +16,6 @@ import {
   skills,
   workExperiences,
 } from "@/lib/data";
-import { CheckCircle } from "lucide-react";
 
 export default function Home() {
   return (
@@ -36,10 +36,7 @@ export default function Home() {
               <Separator />
             </div>
             <div className="flex justify-between">
-              <Button>
-                <CheckCircle className="mr-2 h-4 w-4" />
-                Hire me
-              </Button>
+              <ActionButton actionText="Hire me" />
               <div className="space-y-1">
                 <h3 className="font-medium leading-none">
                   {aboutYou.yearsOfExperience}

@@ -12,7 +12,6 @@ import {
   SiAmazonaws,
   SiSupabase,
   SiFirebase,
-  SiPostgresql,
   SiRedux,
   SiGit,
   SiDocker,
@@ -123,52 +122,39 @@ export const skills = [
 export interface Project {
   title: string;
   description: string;
-  image: string;
   link: string;
 }
 
 export const projects: Project[] = [
   {
-    title: "Challo",
-    description:
-      "Challo is a full-fledged social media app with a primary focus on live video-based discussions. Tech stack includes Flutter, Python, Firebase, AWS, and Agora SDK.",
-    image: "/challo-preview.png",
-    link: "https://github.com/abhinishere/challo",
+    title: "Project 1",
+    description: "Give a short description about project 1",
+    link: "https://github.com/",
   },
   {
-    title: "next-gallery-modal",
-    description:
-      "A WordPress-like image upload gallery modal built with Next.js, TailwindCSS, Typescript, shadcn-ui, and Supabase.",
-    image: "/next-gallery-modal-preview.png",
-    link: "https://github.com/abhinishere/next-gallery-modal",
+    title: "Project 2",
+    description: "Give a short description about project 2",
+    link: "https://github.com/",
   },
   {
-    title: "varthaCMS",
-    description:
-      "An open-source news-focused CMS project I'm building with Next.js, Tailwind, Typescript, and Supabase.",
-    image: "/varthacms-preview.png",
-    link: "https://github.com/varthaCMS/varthaCMS",
+    title: "Project 3",
+    description: "Give a short description about project 3",
+    link: "https://github.com/",
   },
   {
-    title: "VRThingy",
-    description:
-      "GSMArena-like comparison website for VR devices; built with...",
-    image: "/varthacms-preview.png",
-    link: "https://github.com/varthaCMS/vrthingy",
+    title: "Project 4",
+    description: "Give a short description about project 4",
+    link: "https://github.com/",
   },
   {
-    title: "Portfolio template",
-    description:
-      "Clean-looking portfolio template built with TypeScript, Next and Tailwind, and deployed on Vercel.",
-    image: "/varthacms-preview.png",
-    link: "https://github.com/abhinishere/portfolio",
+    title: "Project 5",
+    description: "Give a short description about project 5",
+    link: "https://github.com/",
   },
   {
-    title: "News template",
-    description:
-      "Next.js template for static news, magazine, and blog websites.",
-    image: "/nextjs-news-preview.png",
-    link: "https://github.com/abhinishere/nextjs-news-template",
+    title: "Project 6",
+    description: "Give a short description about project 6",
+    link: "https://github.com/",
   },
 ];
 
@@ -182,56 +168,53 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
   {
-    company: "Mixedware",
-    logo: "/mixedware-preview.jpg",
-    position: "Full-Stack Developer",
-    description:
-      "I was hired as a full stack developer at Mixedware after freelancing for them for two months. I was responsible for building an AR mobile app with Flutter, ARKit, ARCore & Firebase, and a revamped web app with e-commerce functionality using TypeScript, Next/React, Node, Express, MongoDB (MERN) stack.",
+    company: "Company 3",
+    logo: "/company-logo.png",
+    position: "Company 3 Position",
+    description: "Write briefly on your experience working at Company 3.",
     years: "Apr, 2022 - Aug, 2023",
   },
   {
-    company: "Freelance",
-    logo: "/freelance-preview.jpg",
-    position: "Full-Stack Dev & Marketer",
-    description:
-      "I freelanced as a full stack web-and-app developer and marketer for 2+ years with clients of all sizes, including a top price comparison site and a VR startup.",
+    company: "Company 2",
+    logo: "/company-logo.png",
+    position: "Company 2 Position",
+    description: "Write briefly on your experience working at Company 2.",
     years: "Jan, 2020 - Mar, 2022",
   },
   {
-    company: "Niveosys",
-    logo: "/niveosys-preview.jpg",
-    position: "Intern",
-    description:
-      "Interned at Niveosys as part of college degree and familiarized development tools, best coding practices, and project management methodologies.",
+    company: "Company 1",
+    logo: "/company-logo.png",
+    position: "Company 1 Position",
+    description: "Write briefly on your experience working at Company 1.",
     years: "Aug, 2018 - Sep, 2018",
   },
   {
-    company: "SSET",
-    logo: "/scms-preview.jpg",
+    company: "Uni Name",
+    logo: "/company-logo.png",
     position: "Student",
     description:
-      "I graduated with a B.Tech in Computer Science & Engineering from SCMS School of Engineering & Technology, Ernakulam.",
+      "Write briefly about your university experience (degree, subject, etc.)",
     years: "Aug, 2015 - Jun, 2019",
   },
 ];
 
 export const aboutYou = {
-  name: "Abhin Mahipalan",
+  name: "Your Name",
   description:
-    "👋 Hi, I'm Abhin. Full-stack developer. I'm passionate about building web experiences that solve real problems and improve lives. When not working, I am mostly likely digging through Reddit or spinning up websites around obscure topics.",
-  yearsOfExperience: "3.5 years",
-  location: "Keralam, India 🇮🇳",
-  email: "getabhin@gmail.com",
+    "👋 Hi, I'm Random Person. Developer. I'm passionate about.... This is a short description about yourself.... goes in the left sidebar of the landing page.",
+  yearsOfExperience: "x years",
+  location: "Your Place",
+  email: "email@example.com",
 };
 
-export const logoText = "@abhinishere";
+export const logoText = "@yourname";
 
 export const marketingHeadlines = {
-  mainHeadline: "I convert YOUR digital vision into reality.",
-  subHeadline: "Simple. Consistent. Lasting.",
+  mainHeadline: "This is the MAIN headline.",
+  subHeadline: "Bottom. Sub. Headline.",
 };
 
 export const websiteMetadata = {
-  title: "Abhin Mahipalan | Full Stack Developer",
-  description: "👋 Hey, Abhin here. Welcome to my portflio/blog.",
+  title: "Your Name | Designation",
+  description: "👋 Hey, Random Person here. Welcome to my portflio/blog.",
 };
